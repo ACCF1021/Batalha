@@ -2,12 +2,18 @@ package batalha;
 
 public class ConstNavio {
 	
+	PartNavio proa = new PartNavio();
+	PartNavio conves = new PartNavio();
+	PartNavio popa = new PartNavio();
 
 	public ConstNavio(int x, int y) {
-		PartNavio proa = new PartNavio(0,0);
-		PartNavio conves = new PartNavio(1,0);
-		PartNavio popa = new PartNavio(2,0);
 		
-	
+		this.proa.posX = x;
+		this.conves.posX = x;
+		this.popa.posX = x;
+		
+		this.proa.posX = y-1;
+		this.conves.posX = y;
+		this.popa.posX = y+1;
 	}
 }

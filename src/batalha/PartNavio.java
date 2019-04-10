@@ -5,11 +5,11 @@ public class PartNavio {
 	int posX;
 	int posY;
 	
-	public PartNavio(int x, int y) {
+	public PartNavio() {
 		// TODO Auto-generated constructor stub
 		this.vida = 100;
-		this.posX = x;
-		this.posY = y;
+		this.posX = 0;
+		this.posY = 0;
 		
 	}
 	
