@@ -8,12 +8,12 @@ public class ConstNavio {
 
 	public ConstNavio(int x, int y) {
 		
-		this.proa.posX = x;
+		this.proa.posX = x-1;
 		this.conves.posX = x;
-		this.popa.posX = x;
+		this.popa.posX = x+1;
 		
-		this.proa.posX = y-1;
-		this.conves.posX = y;
-		this.popa.posX = y+1;
+		this.proa.posY = y;
+		this.conves.posY = y;
+		this.popa.posY = y;
 	}
 }
